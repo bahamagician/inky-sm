@@ -1,0 +1,48 @@
+@import 'settings';
+@import 'foundation';
+.button {
+  &.expand, &.expanded {
+    td:not(.expander) {
+      width: 100%;
+    }
+  }
+}
+.view-online{
+  padding: 10px 0px !important;
+  a {
+    font-size: 10px;
+    color: #333;
+  }
+}
+
+.top-menu{
+  background-color: #EB392C;
+  a {
+    color: #fff;
+    font-size:12px;
+    line-height:12px !important;
+  }
+}
+
+.menu-link{
+  border-right:#CC0000 solid 1px;
+  padding-bottom:0px !important;
+  &:last-child{
+    border-right:none;
+  }
+}
+
+.box-shadow {
+  -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0px 0px 3px rgba(0,0,0,0.15);
+  box-shadow: 0px 0px 3px rgba(0,0,0,0.15);
+}
+
+.free-shipping{
+  padding-left:20px !important;
+  padding-top:7px !important;
+}
+
+.hero-links{
+  background-color: #042e1d;
+}
