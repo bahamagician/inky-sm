@@ -1,4 +1,4 @@
-# Emails for SoftMoc Based on Foundation for Emails
+# Emails build based on Foundation for Emails 2
 
 ## Installation
 
